@@ -72,6 +72,8 @@ $pwm =~ s/\s//g;
 
 my $power = unpack "f", pack "H*",  $pwm;
 
+# Instructions bloc to set thresholds
+
 if ($power >= 90 && $rpm == 0){ 
     print "Fan is unavailable or is missing";
     $ret = STATUS_CRITICAL;
