@@ -1,6 +1,8 @@
 #!/bin/bash
 
 # Bash script to feed shinken host files
+# Usage : ./host.sh $HOSTNAME$ $ADDRESS$
+
 
 green = '\033[1;92m'
 red = '\033[1;91m'

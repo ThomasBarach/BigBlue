@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Create host files form a csv file
+# Usage : ./hosts_list.sh file.csv
 
 input = $1
 
